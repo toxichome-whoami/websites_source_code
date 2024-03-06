@@ -1,0 +1,663 @@
+.mask-group-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .toxic-home-logo {
+    height: 51px;
+    width: 73.9px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .home {
+    white-space: nowrap;
+  }
+  .about,
+  .contact,
+  .home,
+  .services {
+    position: relative;
+  }
+  .contact {
+    white-space: nowrap;
+  }
+  .nav-bar-buttons,
+  .nav-bar-buttons1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .nav-bar-buttons1 {
+    margin: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 58px;
+    z-index: 1;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .nav-bar-buttons {
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .toxic-home {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .endless-potentia,
+  .product-modeling {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+  .endless-potentia {
+    margin: 0;
+    height: 44px;
+    position: relative;
+    font-size: 36px;
+    letter-spacing: 0.34em;
+    line-height: 122.22%;
+    font-weight: 600;
+    font-family: inherit;
+    background: linear-gradient(90deg, #000, #fff 50%, #000);
+    -webkit-background-clip: text;
+    background-clip: text; /* Add the standard property for non-WebKit browsers */
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-shrink: 0;
+    z-index: 1;
+    }
+  .product-modeling {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px 0;
+    max-width: 100%;
+  }
+  .explore {
+    position: relative;
+    font-size: var(--font-size-lg);
+    letter-spacing: 0.18em;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .explore-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) 12px;
+    background-color: transparent;
+    width: 160px;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(-90deg, #9bf8f4, #6f7bf7);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .creating-artwork-frame,
+  .v-f-x-art-composition {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .v-f-x-art-composition {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px 0;
+  }
+  .creating-artwork-frame {
+    width: 841px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .ball-portal-1,
+  .page-frame {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+  }
+  .page-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 55px 84px 515px 57px;
+    box-sizing: border-box;
+    gap: 235px 0;
+    text-align: left;
+    font-size: 64px;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .ball-portal-1 {
+    height: 521px;
+    border-radius: var(--br-11xl);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .creating-artwork1,
+  .embark-on-a {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    display: inline-block;
+  }
+  .creating-artwork1 {
+    width: 271px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .embark-on-a {
+    width: 441px;
+    line-height: 186.36%;
+    font-weight: 400;
+    font-family: var(--font-sanchez);
+    text-align: justify;
+  }
+  .creating-artwork {
+    width: 441px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px 0;
+  }
+  .camera-seen-vfx-1-icon {
+    align-self: stretch;
+    height: 521px;
+    position: relative;
+    border-radius: var(--br-11xl);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .vfx-art-and {
+    position: relative;
+    letter-spacing: 0.1em;
+  }
+  .capture-the-essence {
+    width: 441px;
+    position: relative;
+    line-height: 186.36%;
+    font-family: var(--font-sanchez);
+    text-align: justify;
+    display: inline-block;
+  }
+  .vfx-art-and-composition {
+    width: 441px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px 0;
+  }
+  .gb-usb-1 {
+    align-self: stretch;
+    height: 521px;
+    position: relative;
+    border-radius: var(--br-11xl);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .product-modeling2,
+  .streamline-your-digital {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    display: inline-block;
+  }
+  .product-modeling2 {
+    width: 318px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .streamline-your-digital {
+    width: 441px;
+    line-height: 186.36%;
+    font-weight: 400;
+    font-family: var(--font-sanchez);
+    text-align: justify;
+  }
+  .product-modeling1 {
+    width: 441px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px 0;
+  }
+  .product-modeling-frame {
+    width: 1695px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .about-me,
+  .tazbir-is-a {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+  }
+  .about-me {
+    height: 52px;
+    font-size: inherit;
+    letter-spacing: 0.14em;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .tazbir-is-a {
+    width: 838px;
+    font-size: 27px;
+    letter-spacing: 0.18em;
+    font-weight: 400;
+    font-family: var(--font-arial);
+    color: #bdbdbd;
+    text-align: justify;
+  }
+  .talk-to-me-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl) 0;
+    box-sizing: border-box;
+    gap: 33px 0;
+    min-width: 838px;
+    max-width: 100%;
+  }
+  .night-house-1 {
+    width: 761px;
+    position: relative;
+    border-radius: var(--br-11xl);
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .about-me-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 0 54px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-sarala);
+  }
+  .inner-frame-icon {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .talk-to-me1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .have-any-questions {
+    width: 691px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    text-align: center;
+    display: inline-block;
+  }
+  .talk-to-me-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px 0;
+  }
+  .get-in-touch {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    z-index: 1;
+  }
+  .get-in-touch-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-7xl) var(--padding-sm)
+      var(--padding-9xl);
+    background-color: transparent;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(90deg, #d397fa, #8364e8);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .inner-frame-parent,
+  .talk-to-me {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .talk-to-me {
+    border-radius: var(--br-11xl);
+    background: linear-gradient(
+      108.74deg,
+      rgba(174, 174, 174, 0.18) 6.89%,
+      rgba(72, 72, 72, 0.04) 87.5%
+    );
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 66px 53px;
+    gap: 53px 0;
+    z-index: 1;
+  }
+  .inner-frame-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 168px var(--padding-xl) 169px var(--padding-2xl);
+    position: relative;
+  }
+  .footor-child {
+    width: 1872px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    max-height: 100%;
+    display: none;
+    max-width: 100%;
+  }
+  .home1 {
+    width: 61px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .about1,
+  .contact1,
+  .home1,
+  .services1 {
+    position: relative;
+    z-index: 1;
+  }
+  .contact1,
+  .services1 {
+    flex: 1;
+    display: inline-block;
+    min-width: 47px;
+  }
+  .contact1 {
+    min-width: 51px;
+  }
+  .multi-page-nav {
+    width: 323px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 17px;
+    max-width: 100%;
+  }
+  .toxic-home-logo2 {
+    align-self: stretch;
+    height: 41px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .toxic-home-logo1 {
+    width: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xl) 0 0;
+    box-sizing: border-box;
+  }
+  .earth-all-right {
+    position: relative;
+    font-size: var(--font-size-xl);
+    z-index: 1;
+  }
+  .contact-frame,
+  .footor,
+  .home-page {
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+    color: var(--color-white);
+  }
+  .footor {
+    align-self: stretch;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gray-100);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-3xl) 37px var(--padding-3xl) var(--padding-24xl);
+    max-width: 100%;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-mini);
+    font-family: var(--font-inter);
+  }
+  .contact-frame,
+  .home-page {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .contact-frame {
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 0 24px;
+    gap: 38px 0;
+    max-width: 100%;
+    font-size: var(--font-size-29xl);
+    font-family: var(--font-inter);
+  }
+  .home-page {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-black);
+    overflow: hidden;
+    align-items: center;
+    padding: 0 0 39px;
+    gap: 156px 0;
+    letter-spacing: normal;
+    font-size: var(--font-size-3xl);
+    font-family: var(--font-sarala);
+  }
+  @media screen and (max-width: 1600px) {
+    .night-house-1,
+    .talk-to-me-frame {
+      flex: 1;
+    }
+    .about-me-option {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1275px) {
+    .page-frame {
+      gap: 235px 0;
+      padding: 36px 42px 335px var(--padding-9xl);
+      box-sizing: border-box;
+    }
+    .talk-to-me-frame {
+      min-width: 100%;
+    }
+    .footor {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+    .home-page {
+      gap: 156px 0;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .nav-bar-buttons1 {
+      display: none;
+      gap: 0 58px;
+    }
+    .toxic-home {
+      font-size: 51px;
+    }
+    .endless-potentia {
+      font-size: var(--font-size-10xl);
+      line-height: 35px;
+    }
+    .page-frame {
+      gap: 235px 0;
+      padding-top: 23px;
+      padding-right: var(--padding-2xl);
+      padding-bottom: 218px;
+      box-sizing: border-box;
+    }
+    .about-me {
+      font-size: 26px;
+    }
+    .about-me-option {
+      gap: 0 54px;
+    }
+    .talk-to-me1 {
+      font-size: var(--font-size-19xl);
+    }
+    .talk-to-me {
+      padding-left: var(--padding-7xl);
+      padding-right: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .inner-frame-parent {
+      padding-top: 109px;
+      padding-bottom: 110px;
+      box-sizing: border-box;
+    }
+    .contact-frame {
+      gap: 38px 0;
+    }
+    .home-page {
+      gap: 156px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .toxic-home {
+      font-size: var(--font-size-19xl);
+    }
+    .endless-potentia {
+      font-size: var(--font-size-3xl);
+      line-height: 26px;
+    }
+    .v-f-x-art-composition {
+      gap: 41px 0;
+    }
+    .creating-artwork1 {
+      font-size: var(--font-size-lg);
+    }
+    .embark-on-a {
+      line-height: 33px;
+    }
+    .embark-on-a,
+    .vfx-art-and {
+      font-size: var(--font-size-lg);
+    }
+    .capture-the-essence {
+      line-height: 33px;
+    }
+    .capture-the-essence,
+    .product-modeling2,
+    .streamline-your-digital {
+      font-size: var(--font-size-lg);
+    }
+    .streamline-your-digital {
+      line-height: 33px;
+    }
+    .about-me {
+      font-size: 19px;
+    }
+    .tazbir-is-a {
+      font-size: var(--font-size-3xl);
+    }
+    .talk-to-me-frame {
+      gap: 33px 0;
+    }
+    .talk-to-me1 {
+      font-size: var(--font-size-10xl);
+    }
+    .have-any-questions {
+      font-size: var(--font-size-base);
+    }
+    .talk-to-me {
+      gap: 53px 0;
+      padding-top: var(--padding-24xl);
+      padding-bottom: var(--padding-24xl);
+      box-sizing: border-box;
+    }
+    .multi-page-nav {
+      flex-wrap: wrap;
+    }
+    .earth-all-right {
+      font-size: var(--font-size-base);
+    }
+  }
+  
