@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Toxic Home | Contact Form</title>
+</head>
+
+<body>
+    <div class="contact_container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact_left">
+            <div class="contact_left_title">
+                <h2>Toxic Home</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="7e3eec80-10a7-4892-9278-713f9b29d136">
+            <input type="text" name="name" placeholder="Your Name" class="contact_inputs" required>
+            <input type="email" name="email" placeholder="Your E-mail" class="contact_inputs" required>
+            <textarea name="message" placeholder="Your Comment" class="contact_inputs" required></textarea>
+            <button type="submit" >Submit <img src="./imgaes/arrow-right.png"></button>
+        </form>
+        <div class="contact_right">
+            <img src="https://drive.google.com/uc?export=view&id=1Er3hyFdn166nZuq1v7Y8Okz5couiB0SU" alt="Your Image Description">
+        </div>
+    </div>
+</body>
+
+</html>
